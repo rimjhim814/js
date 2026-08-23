@@ -8,8 +8,10 @@ let accountState;
 
 /* 
 prefer not to use var
-bc of issue in block scope and functional scope 
+bc of issue in block scope { } and functional scope 
 use let
+let and const are block-scoped.
+var is function-scoped.
 */
 
 accuntEmail = "rim@hc.com"
